@@ -45,6 +45,3 @@
 4. Formats an email-friendly version of the results.
 5. Sends the customized report via email.
 
----
-
-Let me know if you'd like to include example output, screenshots, or a quick-start guide!
