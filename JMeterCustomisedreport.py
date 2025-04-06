@@ -321,8 +321,8 @@ if status == 'FAIL':
 
     # Insert the paginated table after the transactions header
     transactions_header.insert_after(paginated_table_container)
-    Tr_summary_header = soup.find("h2", string="Pages")
-    Tr_summary_header.string = 'Transactions Summary'
+Tr_summary_header = soup.find("h2", string="Pages")
+Tr_summary_header.string = 'Transactions Summary'
 
 # Write updated HTML to file
 with open(locFile, "w", encoding="utf-8") as f:
@@ -448,7 +448,7 @@ else:
 # Create the email
 msg = MIMEMultipart('related')
 msg['Subject'] = 'PT Report for ' + app + '-Test Status:' + status
-strFrom = 'PT_sla_reports@verizon.com'
+strFrom = 'PT_sla_reports@companyname.com'
 #strTo = ['sample1@email.com', 'sample2@email.com', 'sample3@email.com']
 strTo = ['sample1@email.com']
 
