@@ -132,7 +132,7 @@ _(Paginated for large reports)_
 ## 🧪 Quick Start
 
 ```bash
-python enhance_report.py
+JMeterCustomisedreport.py
 ```
 
 Modify the following before running:
