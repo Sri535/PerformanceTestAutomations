@@ -44,6 +44,11 @@
 3. Adds custom SLA metrics and summary tables.
 4. Formats an email-friendly version of the results.
 5. Sends the customized report via email.
+
+---
+
+<details>
+  
 -----------------------------------
 ## Indetail about script what it do
 
@@ -93,6 +98,7 @@ This script automates the customization and emailing of performance test HTML re
   - Sends the email to a configured list of recipients.
 
 ---
+<details>
 
 ## 🔧 Parameters Used in Script
 You can configure these values either as script arguments or directly in the script:
@@ -106,7 +112,8 @@ You can configure these values either as script arguments or directly in the scr
 | `smtp` | SMTP server details for sending email |
 
 ---
-
+<details>
+  
 ## 📬 Email Output Preview
 
 The final email will look something like:
@@ -128,7 +135,8 @@ The final email will look something like:
 _(Paginated for large reports)_
 
 ---
-
+<details>
+  
 ## 🧪 Quick Start
 
 ```bash
@@ -140,3 +148,4 @@ Modify the following before running:
 - Ensure your input report contains a "Pages" table
 
 ---
+</details></details></details>
