@@ -48,6 +48,7 @@
 ---
 
 <details>
+ <summary>Click to expand Indetail about script what it do</summary> 
   
 -----------------------------------
 ## Indetail about script what it do
@@ -99,7 +100,8 @@ This script automates the customization and emailing of performance test HTML re
 
 ---
 <details>
-
+<summary>Click to expand Parameters Used in Script</summary> 
+  
 ## 🔧 Parameters Used in Script
 You can configure these values either as script arguments or directly in the script:
 | Parameter  | Description |
@@ -113,6 +115,7 @@ You can configure these values either as script arguments or directly in the scr
 
 ---
 <details>
+<summary>Click to expand Email Output Preview </summary> 
   
 ## 📬 Email Output Preview
 
@@ -136,6 +139,7 @@ _(Paginated for large reports)_
 
 ---
 <details>
+  <summary>Click to expand Quick Start </summary> 
   
 ## 🧪 Quick Start
 
@@ -146,6 +150,13 @@ JMeterCustomisedreport.py
 Modify the following before running:
 - Update `SLA`, `threshold`, `locFile`, `strTo`, and `smtp` values
 - Ensure your input report contains a "Pages" table
+
+---
+## 🧑‍💻 Author
+
+**Sreenivasula Reddy M**  
+Senior Engineer IV – Quality Assurance @ Verizon  
+✨ Passionate about performance & chaos testing automation
 
 ---
 </details></details></details>
